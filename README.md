@@ -19,6 +19,18 @@ Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui
 
 Cada skill é uma pasta com um `SKILL.md`: um cabeçalho (`name`, `description`) e as instruções em Markdown. A descrição diz quando usar; o corpo diz como. Qualquer ferramenta de IA as consegue ler.
 
+## O método (`reference/`)
+
+Os documentos de método em que as skills se apoiam. Vieram da pasta `reference/` da Drive a 2026-10-18; a versão daqui é a que vale.
+
+| Documento | O quê |
+| :-- | :-- |
+| [`campaign_design.md`](reference/campaign_design.md) | Os tenets de campanha, a estrutura de missão à Mass Effect, os tipos de escolha impossível |
+| [`one_shot_design.md`](reference/one_shot_design.md) | O método das one-shots: fases, blocos, binário, rubrica de 22 itens |
+| [`dm_profile.md`](reference/dm_profile.md) | O estilo do DM à mesa, tirado de 126 transcrições: voz, locais, NPCs, combate, revelações |
+
+Foram escritos na era do vault Obsidian: as menções a `dashboard.cmd`, a `templates/`, a `agent_conventions` e a `authoring_conventions` apontam para material que foi arquivado. O método continua válido; essas instruções de ferramenta, não.
+
 ## Como um projeto usa estas skills
 
 1. **Copia** as pastas das skills que quer para `.claude/skills/` do repositório do projeto (o Claude Code carrega-as dali). Para outras ferramentas, basta o `AGENTS.md` apontar para essa pasta.
