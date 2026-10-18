@@ -16,7 +16,7 @@ As skills genéricas (`dnd-skills`) leem esta secção para saber o que é próp
 - **PCs:** <onde estão as fichas e os documentos de cada PC>.
 - **Livros e regras:** <os PDFs (ex.: Projeto do claude.ai), a extração, as regras da casa, a tabela de latim dos feitiços…>.
 - **Drive:** <pastas e ids: preparações de sessão, ideias, fichas; regra de versões (ficheiro novo, o antigo para o lixo)>.
-- **Sessões:** <onde está o registo das sessões jogadas e a próxima sessão>.
+- **Sessões:** <onde está o registo das sessões jogadas e a próxima sessão>. **Fonte do que se jogou:** <onde estão as transcrições>; os resumos escrevem-se a partir do registo e não servem de fonte.
 - **Validar e gravar:** <comandos antes do commit, linhas de atribuição, push>.
 - **Extras:** <ferramentas do projeto que uma skill alimenta; ex.: «a página Batalha lê `mesa/batalhas/<id>.yaml`»>.
 
