@@ -2,7 +2,7 @@
 
 As skills de DM de João Pereira (Contos & Escudos), em português de Portugal. São **genéricas**: servem a qualquer campanha ou one-shot (Call of the Netherdeep, O Farol Apagado, Marcas de Guerra, The Unmade God…) e a uma conversa solta sem projeto nenhum.
 
-Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui primeiro e, na mesma conversa, atualiza-se em todo o lado: nos projetos que a usam (`.claude/skills/`), na conta do Claude (proposta com o SKILL.md completo) e na cópia de leitura da Drive (pasta `DND/skills/`, um `<nome>.md` por skill; versão nova como ficheiro novo, a anterior para o lixo).
+Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui primeiro e, na mesma conversa, atualiza-se em todo o lado: nos projetos que a usam (`.claude/skills/`), na conta do Claude (proposta com o SKILL.md completo), na cópia de leitura da Drive (pasta `DND/skills/`, um `<nome>.md` por skill; versão nova como ficheiro novo, a anterior para o lixo) e nos documentos do Projeto «Dungeons & Dragons» do claude.ai (`skills/<nome>.md`, reescrito no mesmo caminho).
 
 ## As skills
 
