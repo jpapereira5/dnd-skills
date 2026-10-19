@@ -14,7 +14,6 @@ Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui
 | `npc` | Um NPC em dois níveis: figurante (Brennan Lee Mulligan) ou elenco (Matt Mercer) |
 | `local` | Um local ou uma loja, vivo e cinematográfico |
 | `batalha` | A folha de um combate: combatentes, terreno, táticas e descrições por resultado |
-| `runsheet` | O documento de preparação de uma sessão, para usar à mesa |
 | `livro` | O que dizem os livros, com a referência, separado do que o projeto mudou |
 
 Cada skill é uma pasta com um `SKILL.md`: um cabeçalho (`name`, `description`) e as instruções em Markdown. A descrição diz quando usar; o corpo diz como. Qualquer ferramenta de IA as consegue ler.
@@ -29,7 +28,7 @@ Os documentos de método em que as skills se apoiam. Vieram da pasta `reference/
 | [`one_shot_design.md`](reference/one_shot_design.md) | O método das one-shots: fases, blocos, binário, rubrica de 22 itens |
 | [`dm_profile.md`](reference/dm_profile.md) | O estilo do DM à mesa, tirado de 126 transcrições: voz, locais, NPCs, combate, revelações |
 
-Foram escritos na era do vault Obsidian. O `one_shot_design_template`, o `runsheet_template` e o `one_shot_template` continuam na Drive (pasta `templates/`), porque o dashboard antigo das one-shots (`tools/dashboard/`) os usa; o `combat_reference.md` continua na pasta `reference/` da Drive. O `agent_conventions` e o `authoring_conventions` foram para o lixo a 2026-10-19: o método continua válido, essas instruções de ferramenta não.
+Foram escritos na era do vault Obsidian. As menções a `dashboard.cmd`, aos runsheets do dashboard e aos templates (`one_shot_design_template`, `runsheet_template`, `one_shot_template`) referem-se ao dashboard antigo das one-shots, que saiu da Drive a 2026-10-19 com os templates; o `combat_reference.md` continua na pasta `reference/` da Drive. O `agent_conventions` e o `authoring_conventions` foram para o lixo a 2026-10-19: o método continua válido, essas instruções de ferramenta não.
 
 ## Como um projeto usa estas skills
 
@@ -47,4 +46,4 @@ Para estarem em todas as conversas do claude.ai, as skills também se guardam na
 
 | Projeto | Repositório | Skills |
 | :-- | :-- | :-- |
-| Call of the Netherdeep | `jpapereira5/campaign-cotn` | todas (mais `preparar`, `fecho` e `vigia`, só do projeto) |
+| Call of the Netherdeep | `jpapereira5/campaign-cotn` | todas (mais `preparar`, `fecho` e `vigia`, só do projeto; a `preparar` faz também o documento de preparação da sessão, que era a antiga `runsheet`) |
