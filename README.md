@@ -29,7 +29,7 @@ Os documentos de método em que as skills se apoiam. Vieram da pasta `reference/
 | [`one_shot_design.md`](reference/one_shot_design.md) | O método das one-shots: fases, blocos, binário, rubrica de 22 itens |
 | [`dm_profile.md`](reference/dm_profile.md) | O estilo do DM à mesa, tirado de 126 transcrições: voz, locais, NPCs, combate, revelações |
 
-Foram escritos na era do vault Obsidian: as menções a `dashboard.cmd`, a `templates/`, a `agent_conventions` e a `authoring_conventions` apontam para material que foi arquivado. O método continua válido; essas instruções de ferramenta, não.
+Foram escritos na era do vault Obsidian. O `one_shot_design_template`, o `runsheet_template` e o `one_shot_template` continuam na Drive (pasta `templates/`), porque o dashboard antigo das one-shots (`tools/dashboard/`) os usa; o `combat_reference.md` continua na pasta `reference/` da Drive. O `agent_conventions` e o `authoring_conventions` foram para o lixo a 2026-10-19: o método continua válido, essas instruções de ferramenta não.
 
 ## Como um projeto usa estas skills
 

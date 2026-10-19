@@ -62,7 +62,7 @@ Default workflow for new one-shots. Separates **design conversation** from **por
 | **2 — Design lock** | `one_shots/<slug>/design.md` | On trigger: decisions in pt-PT bullets |
 | **3 — Portable module** | Source MD + runsheets | On explicit request: 22/22 + blind-GM + bilingual table |
 
-Template for Phase 2: `one_shot_design_template`.
+Template for Phase 2: `one_shot_design_template` (Drive, `templates/`).
 
 ### Agent language
 
