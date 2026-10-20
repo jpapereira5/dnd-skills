@@ -15,7 +15,7 @@ Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui
 | `local` | Um local ou uma loja, vivo e cinematográfico |
 | `batalha` | A folha de um combate: combatentes, terreno, táticas e descrições por resultado |
 | `livro` | O que dizem os livros, com a referência, separado do que o projeto mudou |
-| `confessionario` | As perguntas de confessionário de uma sessão já jogada, para os jogadores responderem em personagem à câmara, e a entrevista de apresentação |
+| `confessionario` | As perguntas de confessionário de uma sessão já jogada, para os jogadores responderem em personagem à câmara |
 | `registo-mesa` | O índice de sessões e a lista de jogadores do DM (Google Docs na pasta `tabletop` da Drive), sempre atualizados: no fim de cada fecho e de cada sessão fora da campanha |
 
 Cada skill é uma pasta com um `SKILL.md`: um cabeçalho (`name`, `description`) e as instruções em Markdown. A descrição diz quando usar; o corpo diz como. Qualquer ferramenta de IA as consegue ler.
