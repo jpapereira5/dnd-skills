@@ -2,7 +2,7 @@
 
 As skills de DM de João Pereira (Contos & Escudos), em português de Portugal. São **genéricas**: servem a qualquer campanha ou one-shot (Call of the Netherdeep, O Farol Apagado, Marcas de Guerra, The Unmade God…) e a uma conversa solta sem projeto nenhum.
 
-Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui primeiro e, na mesma conversa, atualiza-se em todo o lado: nos projetos que a usam (`.claude/skills/`), na conta do Claude (proposta com o SKILL.md completo; a `registo-mesa` não vai para a conta), na cópia de leitura da Drive (pasta `DND/skills/`, um `<nome>.md` por skill; versão nova como ficheiro novo, a anterior para o lixo) e nos documentos do Projeto «Dungeons & Dragons» do claude.ai (`skills/<nome>.md`, reescrito no mesmo caminho).
+Este repositório é a **cópia-mãe**. Uma skill nova ou alterada grava-se aqui primeiro e, na mesma conversa, atualiza-se em todo o lado: nos projetos que a usam (`.claude/skills/`), na cópia de leitura da Drive (pasta `DND/skills/`, um `<nome>.md` por skill; versão nova como ficheiro novo, a anterior para o lixo) e nos documentos do Projeto «Dungeons & Dragons» do claude.ai (`skills/<nome>.md`, reescrito no mesmo caminho).
 
 ## As skills
 
@@ -42,7 +42,7 @@ Sem projeto (uma conversa solta), as skills trabalham na mesma: entregam na conv
 
 ## Na conta do Claude
 
-Para estarem em todas as conversas do claude.ai, as skills também se guardam na conta (pelos cartões de proposta). A cópia da conta segue a deste repositório: quando uma muda aqui, propõe-se a versão nova para a conta.
+As skills **não** se guardam na conta do claude.ai (decidido pelo DM a 2026-10-21): vivem no Projeto «Dungeons & Dragons» do claude.ai (`skills/<nome>.md`), neste repositório, nos projetos que as usam e na Drive (`DND/skills/`).
 
 ## Projetos que as usam
 
