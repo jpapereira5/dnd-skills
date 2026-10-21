@@ -1,0 +1,12 @@
+name: Verificar
+
+# Cada skill tem de ter um SKILL.md com cabeçalho `name` igual à pasta e uma `description` com 150 a 600 caracteres;
+# os ficheiros que o SKILL.md cita têm de existir; e nada pode apontar para a era do vault (dashboard.cmd, _conventions).
+on: [push, pull_request]
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/verificar.py

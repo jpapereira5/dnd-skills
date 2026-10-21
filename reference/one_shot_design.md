@@ -1,10 +1,6 @@
----
-tags: [reference, design, oneshot]
-aliases:
-  - One-Shot Design
-  - One-Shot Guidelines
----
 # One-Shot Design
+
+> **Nota (2026-10-21):** escrito na era do vault Obsidian. O dashboard das one-shots, os runsheets em dois ficheiros (EN e pt-PT) e os documentos de convenções dos agentes já não existem. Hoje o documento de preparação de uma one-shot é **um Google Doc em pt-PT** na pasta da aventura na Drive (`tabletop/one_shots/<slug>/`), feito pela skill `preparar` do projeto ou, sem projeto, à mão a partir deste método; a referência de combate é `skills/batalha/referencia-combate.md`. O método (fases, blocos, binário, rubrica) continua a valer.
 
 Normative spec for **standalone D&D one-shots**. Compresses [campaign_design](campaign_design.md) (Zone Blueprint + tenets) for single-session tables.
 
@@ -29,7 +25,7 @@ Normative spec for **standalone D&D one-shots**. Compresses [campaign_design](ca
 | **3 — Story soul** | Clues, stake, theme, humanity pass |
 | **4 — Delivery** | Narration at table → [dm_profile](dm_profile.md) |
 
-**Production:** `authoring_conventions`, `agent_conventions`
+**Production:** ver a nota no topo (o documento de preparação é um Google Doc em pt-PT).
 
 ---
 
@@ -66,13 +62,9 @@ Template for Phase 2: `one_shot_design_template` (removed 2026-10-19 with the ol
 
 ### Agent language
 
-Per `authoring_conventions`:
-
 - **Phases 1–2:** agent speaks **pt-PT** with João (D&D rule terms in English when standard).
-- **Phase 3:** source MD (`{slug}.md` / `{gdoc_name}.md`) in **pt-PT**; **`runsheet_en.md`** + **`runsheet_pt.md`** for the table.
+- **Phase 3:** one preparation document in **pt-PT** (Google Doc in the adventure folder on Drive), Part I + Part II + cheat sheet + scene table.
 - **This guidelines doc:** English (reference, not playable material).
-
-**Dashboard:** launch from vault root **`dashboard.cmd`** only — pick one-shot in browser. Do **not** create `dashboard.cmd` inside `one_shots/<slug>/`.
 
 ### Phase 1 — Conversation (default)
 
@@ -82,7 +74,7 @@ Per `authoring_conventions`:
 | **Medium** | Chat only — no vault writes unless asked |
 | **Pace** | Macro → micro (ladder below) |
 | **Agent** | Propose, question, stress-test; Author card + rubric as **discussion lenses**, not compliance homework |
-| **Forbidden** | Part I prose, runsheet blocks, `runsheet_en.md`, `runsheet_pt.md`, critic PASS scoring, “shipping” language |
+| **Forbidden** | Part I prose, scene table, critic PASS scoring, “shipping” language |
 
 **Macro → micro ladder** (loop back on feedback; agent may use Portuguese labels in chat):
 
@@ -118,11 +110,9 @@ Create folder if missing; **do not** create runsheets.
 | Artifact | Language | Standard |
 |----------|----------|----------|
 | `{slug}.md` / `{gdoc_name}.md` | **pt-PT** | Part I + II; cheat sheet |
-| `runsheet_en.md` | **EN** | Blind-GM runnable; sync from source |
-| `runsheet_pt.md` | **pt-PT** | Translate from updated EN runsheet |
-| `sources.yaml` | — | If gdoc-backed (no per-folder `dashboard`) |
+| Scene table (inside the same document) | **pt-PT** | Blind-GM runnable: scenes, checks, choice, clues |
 
-**Ship bar:** 22/22 PASS + blind-GM — **Phase 3 only**. Sync: source MD → `runsheet_en.md` → `runsheet_pt.md`. Remind João: **`DND/dashboard.cmd`** + F5.
+**Ship bar:** 22/22 PASS + blind-GM — **Phase 3 only**.
 
 **Runsheet-first path:** After structure skeleton, draft cheat sheet + scenes; derive Part I memorable spine from structure rather than prose first.
 
@@ -557,9 +547,8 @@ Structure is this doc. **Narration:** [dm_profile](dm_profile.md). **Combat flav
 |------|------|
 | Tenets, faction test, impossible-choice types | [campaign_design](campaign_design.md) |
 | Voice, progressive disclosure, object exposition | [dm_profile](dm_profile.md) |
-| Combat narration | `combat_reference` |
-| Runsheet blocks, NPC tiers, dashboard | `agent_conventions` |
-| pt-PT source, sync order | `authoring_conventions` |
+| Combat narration | `skills/batalha/referencia-combate.md` |
+| NPC tiers | `skills/npc/SKILL.md` |
 
 ---
 
@@ -570,10 +559,7 @@ Structure is this doc. **Narration:** [dm_profile](dm_profile.md). **Combat flav
 | **2** | **`design.md`** | pt-PT decisions — pitch, secret, mode, shape, blocks sketch, binary, open questions |
 | **3** | **Part I** (source MD) | Full briefing: mode, shape, theme, motifs, clue audit, human engine, table-split (power), binary (straddle + third-option), stall, flags, moral trap or waiver |
 | **3** | **DM cheat sheet** | Clock ticks, wall-clock checkpoints, flags, victory sentence, pressure valve, contingencies |
-| **3** | **`runsheet_en.md`** | Scenes, checks, choice, clues — blind-GM runnable |
-| **3** | **`runsheet_pt.md`** | Portuguese table — translate from EN runsheet |
-
-**Not in one-shot folder:** `dashboard.cmd` — use vault root `dashboard.cmd`.
+| **3** | **Scene table** (pt-PT, in the same document) | Scenes, checks, choice, clues — blind-GM runnable |
 
 ---
 
@@ -589,7 +575,7 @@ Structure is this doc. **Narration:** [dm_profile](dm_profile.md). **Combat flav
 8. **Critic** — 22-item rubric + glossary (mode-aware)
 9. **Delivery pass** — Layer 4
 10. **Blind-GM test**
-11. Emit source MD (pt-PT) + `runsheet_en` + `runsheet_pt`
+11. Emit the preparation document (pt-PT) with the scene table
 
 **Enrich priority (portable):** memorable spine (19–22) → cheat sheet → stall default → bypass → lock beat
 

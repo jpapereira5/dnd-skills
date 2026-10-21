@@ -30,15 +30,27 @@ Os documentos de método em que as skills se apoiam. Vieram da pasta `reference/
 | [`one_shot_design.md`](reference/one_shot_design.md) | O método das one-shots: fases, blocos, binário, rubrica de 22 itens |
 | [`dm_profile.md`](reference/dm_profile.md) | O estilo do DM à mesa, tirado de 126 transcrições: voz, locais, NPCs, combate, revelações |
 
-Foram escritos na era do vault Obsidian. As menções a `dashboard.cmd`, aos runsheets do dashboard e aos templates (`one_shot_design_template`, `runsheet_template`, `one_shot_template`) referem-se ao dashboard antigo das one-shots, que saiu da Drive a 2026-10-19 com os templates; o `combat_reference.md` da pasta `reference/` da Drive passou a `skills/batalha/referencia-combate.md` a 2026-10-20 (revisto; o original fica na Drive, em `dm_tools/reference/combat/` desde 2026-10-20). O `agent_conventions` e o `authoring_conventions` foram para o lixo a 2026-10-19: o método continua válido, essas instruções de ferramenta não.
+Foram escritos na era do vault Obsidian; o `one_shot_design.md` foi corrigido a 2026-10-21 para o que existe hoje (um Google Doc de preparação em pt-PT por one-shot; a referência de combate em `skills/batalha/referencia-combate.md`, revista de `dm_tools/references/combat/` da Drive).
 
 ## Como um projeto usa estas skills
 
-1. **Copia** as pastas das skills que quer para `.claude/skills/` do repositório do projeto (o Claude Code carrega-as dali). Para outras ferramentas, basta o `AGENTS.md` apontar para essa pasta.
+1. **Copia** as pastas das skills que quer para `.claude/skills/` do repositório do projeto (o Claude Code carrega-as dali): `python3 scripts/sincronizar.py copiar ../<projeto>`. Para outras ferramentas, basta o `AGENTS.md` apontar para essa pasta.
 2. **Escreve o `AGENTS.md`** na raiz do projeto, com uma secção `## Para as skills` que diz o que é próprio daquele projeto. Modelo em [`AGENTS-modelo.md`](AGENTS-modelo.md).
 3. **Skills só do projeto** (as que dependem de uma ferramenta dele, como a Grelha da CotN) ficam no repositório do projeto e não vêm para aqui.
 
 Sem projeto (uma conversa solta), as skills trabalham na mesma: entregam na conversa ou num documento na Drive, e perguntam o que precisarem de saber.
+
+## Scripts
+
+| Comando | O quê |
+| :-- | :-- |
+| `python3 scripts/verificar.py` | Lint das skills (cabeçalho, descrição, ficheiros citados, termos da era do vault); corre no CI |
+| `python3 scripts/sincronizar.py copiar ../campaign-cotn` | Copia as genéricas para o projeto |
+| `python3 scripts/sincronizar.py conferir ../campaign-cotn` | Diz se alguma cópia diverge (o CI do projeto faz o mesmo) |
+| `python3 scripts/sincronizar.py gerar SAIDA ../campaign-cotn` | Gera as cópias com os nomes da Drive (`drive/`) e do Projeto (`projeto/`) e um `manifesto.json` |
+| `python3 scripts/sincronizar.py diferencas SAIDA manifesto-antigo.json` | O que há para enviar e apagar desde a última vez |
+
+Para atualizar a Drive e o Projeto: `gerar`, depois `diferencas` contra o `manifesto.json` da vez anterior (guardado na pasta `DND/skills/` da Drive), e o Claude envia só o que mudou (Drive: ficheiro novo e o antigo para o lixo; Projeto: reescrito no mesmo caminho) e no fim o manifesto.
 
 ## Na conta do Claude
 
